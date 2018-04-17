@@ -3,6 +3,25 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Describe the effect each of the P, I, D components had
+
+* P: This is a basic controller to follow the target value. P controller returns the value which is proportional to the error between the target and current value. Therefore the much error there is, the much control value will be returned from this controller. However P controller might cause overshoot.
+
+* I: I controller returns the integral (sum) of the error which has been piled up until now. This controller can decrease bias which is error that will be caused using only P and D controllers.
+
+* D: D controller returns the differential of the error. Although it is taught that D controller will help decrease the overshoot made by P controller in the lessons, this controller also can make the vehicle durable against external disturbance such as wind. Because  most of the time external disturbance causes sharp changes in value, and it lets D controller return much control value.
+
+## Describe how the final hyperparameters were chosen
+
+First I turned the P, I, D parameters manually until at least the vehicle would not be out of the track.
+Then I implemented the Twiddle algorithm with a slightly different flowchart than the one taught in the lessons.
+
+<div style="text-align:center"><img src ="./images/flowchart.png" /></div>
+<br/>
+
+
+The program gathers CTE^2 as the total error after the vehicle passes one fifth of the lap. Every time the vehicle finishes a lap, the program does Twiddle algorithm following the flowchart above. After looping 100 laps, the best error had not been improved since around 50th lap, and I obtained the final parameters; `Kp=0.1443`, `Ki=0.000282795`, `Kd=3.5731` (in [main.cpp, Line:38](https://github.com/Hotsuyuki/CarND-PID-Control-Project/blob/master/src/main.cpp#L38))
+
 ## Dependencies
 
 * cmake >= 3.5
@@ -19,7 +38,7 @@ Self-Driving Car Engineer Nanodegree Program
   * Run either `./install-mac.sh` or `./install-ubuntu.sh`.
   * If you install from source, checkout to commit `e94b6e1`, i.e.
     ```
-    git clone https://github.com/uWebSockets/uWebSockets 
+    git clone https://github.com/uWebSockets/uWebSockets
     cd uWebSockets
     git checkout e94b6e1
     ```
@@ -33,7 +52,7 @@ There's an experimental patch for windows in this [PR](https://github.com/udacit
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./pid`. 
+4. Run it: `./pid`.
 
 Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
 
@@ -95,4 +114,3 @@ still be compilable with cmake and make./
 
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
