@@ -1,6 +1,7 @@
 #include "PID.h"
 #include <cmath>
 #include <iostream>
+#include <limits>
 
 using namespace std;
 
@@ -50,7 +51,7 @@ void PID::TwiddleParameter(double delta) {
       return;
 
     case 2:
-      Kd_ += delta;
+      Kd_ += 0.1*delta;
       return;
 
     default:

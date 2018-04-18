@@ -1,0 +1,806 @@
+kawanishihatsuno-no-MacBook-Air:build hottu$ ./pid 
+Initial param index: param_idx_=0
+Initial parameters: Kp_=0.13, Ki_=0.00027, Kd_=3.1
+Initail deltas: dp_[0]=0.013, dp_[1]=2.7e-05, dp_[2]=0.31
+
+Listening to port 4567
+Connected!!!
+The best error was improved!!!
+So try adding 1.1*dp[0] in NEXT time
+The 1th lap
+best_err_=1251.57
+New param index: param_idx_=1
+New parameters: Kp_=0.13, Ki_=0.000297, Kd_=3.1
+New deltas: dp_[0]=0.0143, dp_[1]=2.7e-05, dp_[2]=0.31
+
+The best error was improved!!!
+So try adding 1.1*dp[1] in NEXT time
+The 2th lap
+best_err_=985.907
+New param index: param_idx_=2
+New parameters: Kp_=0.13, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0143, dp_[1]=2.97e-05, dp_[2]=0.31
+
+The best error was improved!!!
+So try adding 1.1*dp[2] in NEXT time
+The 3th lap
+best_err_=386.013
+New param index: param_idx_=0
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0143, dp_[1]=2.97e-05, dp_[2]=0.341
+
+The best error was improved!!!
+So try adding 1.1*dp[0] in NEXT time
+The 4th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.0003267, Kd_=3.41
+New deltas: dp_[0]=0.01573, dp_[1]=2.97e-05, dp_[2]=0.341
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 5th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.0002673, Kd_=3.41
+New deltas: dp_[0]=0.01573, dp_[1]=2.97e-05, dp_[2]=0.341
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 6th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.751
+New deltas: dp_[0]=0.01573, dp_[1]=2.673e-05, dp_[2]=0.341
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 7th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.069
+New deltas: dp_[0]=0.01573, dp_[1]=2.673e-05, dp_[2]=0.341
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 8th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.16003, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.01573, dp_[1]=2.673e-05, dp_[2]=0.3069
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 9th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.12857, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.01573, dp_[1]=2.673e-05, dp_[2]=0.3069
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 10th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.00032373, Kd_=3.41
+New deltas: dp_[0]=0.014157, dp_[1]=2.673e-05, dp_[2]=0.3069
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 11th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.00027027, Kd_=3.41
+New deltas: dp_[0]=0.014157, dp_[1]=2.673e-05, dp_[2]=0.3069
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 12th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.7169
+New deltas: dp_[0]=0.014157, dp_[1]=2.4057e-05, dp_[2]=0.3069
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 13th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.1031
+New deltas: dp_[0]=0.014157, dp_[1]=2.4057e-05, dp_[2]=0.3069
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 14th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.158457, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.014157, dp_[1]=2.4057e-05, dp_[2]=0.27621
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 15th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.130143, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.014157, dp_[1]=2.4057e-05, dp_[2]=0.27621
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 16th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000321057, Kd_=3.41
+New deltas: dp_[0]=0.0127413, dp_[1]=2.4057e-05, dp_[2]=0.27621
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 17th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000272943, Kd_=3.41
+New deltas: dp_[0]=0.0127413, dp_[1]=2.4057e-05, dp_[2]=0.27621
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 18th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.68621
+New deltas: dp_[0]=0.0127413, dp_[1]=2.16513e-05, dp_[2]=0.27621
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 19th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.13379
+New deltas: dp_[0]=0.0127413, dp_[1]=2.16513e-05, dp_[2]=0.27621
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 20th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.157041, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0127413, dp_[1]=2.16513e-05, dp_[2]=0.248589
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 21th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.131559, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0127413, dp_[1]=2.16513e-05, dp_[2]=0.248589
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 22th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000318651, Kd_=3.41
+New deltas: dp_[0]=0.0114672, dp_[1]=2.16513e-05, dp_[2]=0.248589
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 23th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000275349, Kd_=3.41
+New deltas: dp_[0]=0.0114672, dp_[1]=2.16513e-05, dp_[2]=0.248589
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 24th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.65859
+New deltas: dp_[0]=0.0114672, dp_[1]=1.94862e-05, dp_[2]=0.248589
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 25th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.16141
+New deltas: dp_[0]=0.0114672, dp_[1]=1.94862e-05, dp_[2]=0.248589
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 26th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.155767, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0114672, dp_[1]=1.94862e-05, dp_[2]=0.22373
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 27th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.132833, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0114672, dp_[1]=1.94862e-05, dp_[2]=0.22373
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 28th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000316486, Kd_=3.41
+New deltas: dp_[0]=0.0103205, dp_[1]=1.94862e-05, dp_[2]=0.22373
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 29th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000277514, Kd_=3.41
+New deltas: dp_[0]=0.0103205, dp_[1]=1.94862e-05, dp_[2]=0.22373
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 30th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.63373
+New deltas: dp_[0]=0.0103205, dp_[1]=1.75376e-05, dp_[2]=0.22373
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 31th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.18627
+New deltas: dp_[0]=0.0103205, dp_[1]=1.75376e-05, dp_[2]=0.22373
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 32th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.15462, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0103205, dp_[1]=1.75376e-05, dp_[2]=0.201357
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 33th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.13398, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.0103205, dp_[1]=1.75376e-05, dp_[2]=0.201357
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 34th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000314538, Kd_=3.41
+New deltas: dp_[0]=0.00928841, dp_[1]=1.75376e-05, dp_[2]=0.201357
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 35th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000279462, Kd_=3.41
+New deltas: dp_[0]=0.00928841, dp_[1]=1.75376e-05, dp_[2]=0.201357
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 36th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.61136
+New deltas: dp_[0]=0.00928841, dp_[1]=1.57838e-05, dp_[2]=0.201357
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 37th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.20864
+New deltas: dp_[0]=0.00928841, dp_[1]=1.57838e-05, dp_[2]=0.201357
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 38th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.153588, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.00928841, dp_[1]=1.57838e-05, dp_[2]=0.181221
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 39th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.135012, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.00928841, dp_[1]=1.57838e-05, dp_[2]=0.181221
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 40th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000312784, Kd_=3.41
+New deltas: dp_[0]=0.00835957, dp_[1]=1.57838e-05, dp_[2]=0.181221
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 41th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000281216, Kd_=3.41
+New deltas: dp_[0]=0.00835957, dp_[1]=1.57838e-05, dp_[2]=0.181221
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 42th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.59122
+New deltas: dp_[0]=0.00835957, dp_[1]=1.42054e-05, dp_[2]=0.181221
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 43th lap
+best_err_=278.702
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000297, Kd_=3.22878
+New deltas: dp_[0]=0.00835957, dp_[1]=1.42054e-05, dp_[2]=0.181221
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 44th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.15266, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.00835957, dp_[1]=1.42054e-05, dp_[2]=0.163099
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 45th lap
+best_err_=278.702
+New param index: param_idx_=0
+New parameters: Kp_=0.13594, Ki_=0.000297, Kd_=3.41
+New deltas: dp_[0]=0.00835957, dp_[1]=1.42054e-05, dp_[2]=0.163099
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 46th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000311205, Kd_=3.41
+New deltas: dp_[0]=0.00752361, dp_[1]=1.42054e-05, dp_[2]=0.163099
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 47th lap
+best_err_=278.702
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00752361, dp_[1]=1.42054e-05, dp_[2]=0.163099
+
+The best error was improved!!!
+So try adding 1.1*dp[1] in NEXT time
+The 48th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.5731
+New deltas: dp_[0]=0.00752361, dp_[1]=1.5626e-05, dp_[2]=0.163099
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 49th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.2469
+New deltas: dp_[0]=0.00752361, dp_[1]=1.5626e-05, dp_[2]=0.163099
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 50th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.151824, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00752361, dp_[1]=1.5626e-05, dp_[2]=0.146789
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 51th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.136776, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00752361, dp_[1]=1.5626e-05, dp_[2]=0.146789
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 52th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000298421, Kd_=3.41
+New deltas: dp_[0]=0.00677125, dp_[1]=1.5626e-05, dp_[2]=0.146789
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 53th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000267169, Kd_=3.41
+New deltas: dp_[0]=0.00677125, dp_[1]=1.5626e-05, dp_[2]=0.146789
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 54th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.55679
+New deltas: dp_[0]=0.00677125, dp_[1]=1.40634e-05, dp_[2]=0.146789
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 55th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.26321
+New deltas: dp_[0]=0.00677125, dp_[1]=1.40634e-05, dp_[2]=0.146789
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 56th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.151071, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00677125, dp_[1]=1.40634e-05, dp_[2]=0.13211
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 57th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.137529, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00677125, dp_[1]=1.40634e-05, dp_[2]=0.13211
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 58th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000296858, Kd_=3.41
+New deltas: dp_[0]=0.00609412, dp_[1]=1.40634e-05, dp_[2]=0.13211
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 59th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000268731, Kd_=3.41
+New deltas: dp_[0]=0.00609412, dp_[1]=1.40634e-05, dp_[2]=0.13211
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 60th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.54211
+New deltas: dp_[0]=0.00609412, dp_[1]=1.2657e-05, dp_[2]=0.13211
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 61th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.27789
+New deltas: dp_[0]=0.00609412, dp_[1]=1.2657e-05, dp_[2]=0.13211
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 62th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.150394, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00609412, dp_[1]=1.2657e-05, dp_[2]=0.118899
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 63th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.138206, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00609412, dp_[1]=1.2657e-05, dp_[2]=0.118899
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 64th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000295452, Kd_=3.41
+New deltas: dp_[0]=0.00548471, dp_[1]=1.2657e-05, dp_[2]=0.118899
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 65th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000270138, Kd_=3.41
+New deltas: dp_[0]=0.00548471, dp_[1]=1.2657e-05, dp_[2]=0.118899
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 66th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.5289
+New deltas: dp_[0]=0.00548471, dp_[1]=1.13913e-05, dp_[2]=0.118899
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 67th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.2911
+New deltas: dp_[0]=0.00548471, dp_[1]=1.13913e-05, dp_[2]=0.118899
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 68th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.149785, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00548471, dp_[1]=1.13913e-05, dp_[2]=0.107009
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 69th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.138815, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00548471, dp_[1]=1.13913e-05, dp_[2]=0.107009
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 70th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000294186, Kd_=3.41
+New deltas: dp_[0]=0.00493624, dp_[1]=1.13913e-05, dp_[2]=0.107009
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 71th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000271403, Kd_=3.41
+New deltas: dp_[0]=0.00493624, dp_[1]=1.13913e-05, dp_[2]=0.107009
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 72th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.51701
+New deltas: dp_[0]=0.00493624, dp_[1]=1.02522e-05, dp_[2]=0.107009
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 73th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.30299
+New deltas: dp_[0]=0.00493624, dp_[1]=1.02522e-05, dp_[2]=0.107009
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 74th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.149236, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00493624, dp_[1]=1.02522e-05, dp_[2]=0.0963085
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 75th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.139364, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00493624, dp_[1]=1.02522e-05, dp_[2]=0.0963085
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 76th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000293047, Kd_=3.41
+New deltas: dp_[0]=0.00444262, dp_[1]=1.02522e-05, dp_[2]=0.0963085
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 77th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000272542, Kd_=3.41
+New deltas: dp_[0]=0.00444262, dp_[1]=1.02522e-05, dp_[2]=0.0963085
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 78th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.50631
+New deltas: dp_[0]=0.00444262, dp_[1]=9.22697e-06, dp_[2]=0.0963085
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 79th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.31369
+New deltas: dp_[0]=0.00444262, dp_[1]=9.22697e-06, dp_[2]=0.0963085
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 80th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.148743, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00444262, dp_[1]=9.22697e-06, dp_[2]=0.0866776
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 81th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.139857, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00444262, dp_[1]=9.22697e-06, dp_[2]=0.0866776
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 82th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000292022, Kd_=3.41
+New deltas: dp_[0]=0.00399835, dp_[1]=9.22697e-06, dp_[2]=0.0866776
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 83th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000273568, Kd_=3.41
+New deltas: dp_[0]=0.00399835, dp_[1]=9.22697e-06, dp_[2]=0.0866776
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 84th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.49668
+New deltas: dp_[0]=0.00399835, dp_[1]=8.30428e-06, dp_[2]=0.0866776
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 85th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.32332
+New deltas: dp_[0]=0.00399835, dp_[1]=8.30428e-06, dp_[2]=0.0866776
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 86th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.148298, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00399835, dp_[1]=8.30428e-06, dp_[2]=0.0780099
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 87th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.140302, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00399835, dp_[1]=8.30428e-06, dp_[2]=0.0780099
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 88th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000291099, Kd_=3.41
+New deltas: dp_[0]=0.00359852, dp_[1]=8.30428e-06, dp_[2]=0.0780099
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 89th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.00027449, Kd_=3.41
+New deltas: dp_[0]=0.00359852, dp_[1]=8.30428e-06, dp_[2]=0.0780099
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 90th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.48801
+New deltas: dp_[0]=0.00359852, dp_[1]=7.47385e-06, dp_[2]=0.0780099
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 91th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.33199
+New deltas: dp_[0]=0.00359852, dp_[1]=7.47385e-06, dp_[2]=0.0780099
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 92th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.147899, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00359852, dp_[1]=7.47385e-06, dp_[2]=0.0702089
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 93th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.140701, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00359852, dp_[1]=7.47385e-06, dp_[2]=0.0702089
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 94th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000290268, Kd_=3.41
+New deltas: dp_[0]=0.00323867, dp_[1]=7.47385e-06, dp_[2]=0.0702089
+
+The best error was not improved by adding 1.0*dp[1]...
+So try subtracting 1.0*dp[1] in THIS time
+The 95th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000275321, Kd_=3.41
+New deltas: dp_[0]=0.00323867, dp_[1]=7.47385e-06, dp_[2]=0.0702089
+
+The best error was not improved by subtracting 1.0*dp[1]...
+So try adding 0.9*dp[1] in NEXT time
+The 96th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.48021
+New deltas: dp_[0]=0.00323867, dp_[1]=6.72646e-06, dp_[2]=0.0702089
+
+The best error was not improved by adding 1.0*dp[2]...
+So try subtracting 1.0*dp[2] in THIS time
+The 97th lap
+best_err_=267.903
+New param index: param_idx_=2
+New parameters: Kp_=0.1443, Ki_=0.000282795, Kd_=3.33979
+New deltas: dp_[0]=0.00323867, dp_[1]=6.72646e-06, dp_[2]=0.0702089
+
+The best error was not improved by subtracting 1.0*dp[2]...
+So try adding 0.9*dp[2] in NEXT time
+The 98th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.147539, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00323867, dp_[1]=6.72646e-06, dp_[2]=0.063188
+
+The best error was not improved by adding 1.0*dp[0]...
+So try subtracting 1.0*dp[0] in THIS time
+The 99th lap
+best_err_=267.903
+New param index: param_idx_=0
+New parameters: Kp_=0.141061, Ki_=0.000282795, Kd_=3.41
+New deltas: dp_[0]=0.00323867, dp_[1]=6.72646e-06, dp_[2]=0.063188
+
+The best error was not improved by subtracting 1.0*dp[0]...
+So try adding 0.9*dp[0] in NEXT time
+The 100th lap
+best_err_=267.903
+New param index: param_idx_=1
+New parameters: Kp_=0.1443, Ki_=0.000289521, Kd_=3.41
+New deltas: dp_[0]=0.0029148, dp_[1]=6.72646e-06, dp_[2]=0.063188
